@@ -44,7 +44,7 @@ ahours <- dataset %>% group_by(hour) %>% summarise(N = n())
 select(arrange(ahours,desc(N)),N,hour)
 ```
 
-### Определим нужный нам IP-адрес:
+### Определим нужный нам IP-адрес (ответ: 12.55.77.96):
 
 ```{r}
 dataset1 %>%
